@@ -6,8 +6,12 @@ android {
     compileSdk 31
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
+
         applicationId "com.example.gamecenterapp"
-        minSdk 25
+        minSdk 21
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -28,8 +32,12 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.browser:browser:1.3.0"){
+        force = true
+    }
 
-    implementation 'androidx.appcompat:appcompat:1.5.1'
+
+    implementation 'androidx.appcompat:appcompat:1.5.0'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.+'

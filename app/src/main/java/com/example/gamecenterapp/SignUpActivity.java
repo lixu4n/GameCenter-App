@@ -1,7 +1,6 @@
 package com.example.gamecenterapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class SignUpActivity extends AppCompatActivity {
