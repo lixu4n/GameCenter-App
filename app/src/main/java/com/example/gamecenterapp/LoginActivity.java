@@ -30,7 +30,10 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(emailtext.isEmpty() || passwordTxt.isEmpty()){
                     Toast.makeText(LoginActivity.this,"Please enter the right credentials", Toast.LENGTH_SHORT).show();
-                } //test4
+                }
+                else{
+
+                }
 
             }
         });
