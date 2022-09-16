@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUpActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <EditText
+      android:id="@+id/confirPpassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="confirm Password"
+      android:inputType="textPassword"
+      tools:layout_editor_absoluteX="54dp"
+      tools:layout_editor_absoluteY="401dp" />
+
+  <TextView
+      android:id="@+id/fullName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Full Name"
+      tools:layout_editor_absoluteX="54dp"
+      tools:layout_editor_absoluteY="115dp" />
+
+  <EditText
+      android:id="@+id/emailAddress"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Email address"
+      android:inputType="textEmailAddress"
+      tools:layout_editor_absoluteX="52dp"
+      tools:layout_editor_absoluteY="225dp" />
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textPassword"
+      android:hint="Password"
+      tools:layout_editor_absoluteX="54dp"
+      tools:layout_editor_absoluteY="303dp" />
+
+  <Button
+      android:id="@+id/signupnowbtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="132dp"
+      android:text="Sign Up Now"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:layout_editor_absoluteX="140dp" />
+
+  <TextView
+      android:id="@+id/phonenum"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Phone number (optional)"
+      tools:layout_editor_absoluteX="52dp"
+      tools:layout_editor_absoluteY="172dp" />
+
+  <TextView
+      android:id="@+id/signup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sign Up here"
+      tools:layout_editor_absoluteX="173dp"
+      tools:layout_editor_absoluteY="60dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
