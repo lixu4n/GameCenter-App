@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543842343895",
+    "project_id": "game-center-authentication",
+    "storage_bucket": "game-center-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543842343895:android:571c6c1ef59207a35e0992",
+        "android_client_info": {
+          "package_name": "com.example.gamecenterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543842343895-caqj62b22p7e3oe49ireuu62pup4bfbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamecenterapp",
+            "certificate_hash": "8b437ebd0c7fefa4389105d511465e08ece45cf5"
+          }
+        },
+        {
+          "client_id": "543842343895-iq3o4l09kqc8ebkjvjav0gj413krpupk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDytY_6_4dmT6nh6Y96tFKSDEh2JUx6BKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543842343895-iq3o4l09kqc8ebkjvjav0gj413krpupk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
