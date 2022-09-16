@@ -7,22 +7,30 @@
     tools:context=".SignUpActivity">
 
   <EditText
-      android:id="@+id/confirPpassword"
+      android:id="@+id/confirmPassword"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:ems="10"
       android:hint="confirm Password"
       android:inputType="textPassword"
-      tools:layout_editor_absoluteX="54dp"
-      tools:layout_editor_absoluteY="401dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.258"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.545" />
 
   <TextView
       android:id="@+id/fullName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Full Name"
-      tools:layout_editor_absoluteX="54dp"
-      tools:layout_editor_absoluteY="115dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.149"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.178" />
 
   <EditText
       android:id="@+id/emailAddress"
@@ -31,41 +39,57 @@
       android:ems="10"
       android:hint="Email address"
       android:inputType="textEmailAddress"
-      tools:layout_editor_absoluteX="52dp"
-      tools:layout_editor_absoluteY="225dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.258"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.311" />
 
   <EditText
-      android:id="@+id/password"
+      android:id="@+id/passWord"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:ems="10"
-      android:inputType="textPassword"
       android:hint="Password"
-      tools:layout_editor_absoluteX="54dp"
-      tools:layout_editor_absoluteY="303dp" />
+      android:inputType="textPassword"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.258"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.422" />
 
   <Button
-      android:id="@+id/signupnowbtn"
+      android:id="@+id/signUpBtn"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="132dp"
+      android:layout_marginBottom="140dp"
       android:text="Sign Up Now"
       app:layout_constraintBottom_toBottomOf="parent"
-      tools:layout_editor_absoluteX="140dp" />
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
 
   <TextView
-      android:id="@+id/phonenum"
+      android:id="@+id/phoneNum"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Phone number (optional)"
-      tools:layout_editor_absoluteX="52dp"
-      tools:layout_editor_absoluteY="172dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.203"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.241" />
 
   <TextView
-      android:id="@+id/signup"
+      android:id="@+id/signUp"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Sign Up here"
-      tools:layout_editor_absoluteX="173dp"
-      tools:layout_editor_absoluteY="60dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.077" />
 </androidx.constraintlayout.widget.ConstraintLayout>
