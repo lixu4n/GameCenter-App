@@ -20,17 +20,17 @@
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="0.545" />
 
-  <TextView
-      android:id="@+id/fullName"
+  <EditText
+      android:id="@+id/firstName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Full Name"
+      android:hint="First Name"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.149"
+      app:layout_constraintHorizontal_bias="0.164"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.178" />
+      app:layout_constraintVertical_bias="0.164" />
 
   <EditText
       android:id="@+id/emailAddress"
@@ -44,7 +44,7 @@
       app:layout_constraintHorizontal_bias="0.258"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.311" />
+      app:layout_constraintVertical_bias="0.336" />
 
   <EditText
       android:id="@+id/passWord"
@@ -58,7 +58,7 @@
       app:layout_constraintHorizontal_bias="0.258"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.422" />
+      app:layout_constraintVertical_bias="0.446" />
 
   <Button
       android:id="@+id/signUpBtn"
@@ -70,20 +70,23 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />
 
-  <TextView
-      android:id="@+id/phoneNum"
+  <EditText
+      android:id="@+id/lastName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Phone number (optional)"
+      android:hint="Last name"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.203"
+      app:layout_constraintHorizontal_bias="0.162"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.241" />
+      app:layout_constraintVertical_bias="0.244" />
 
   <TextView
       android:id="@+id/signUp"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Sign Up here"
