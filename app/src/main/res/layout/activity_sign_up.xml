@@ -21,16 +21,16 @@
       app:layout_constraintVertical_bias="0.545" />
 
   <EditText
-      android:id="@+id/firstName"
+      android:id="@+id/fullName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:hint="First Name"
+      android:hint="Full Name"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.164"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.164" />
+      app:layout_constraintVertical_bias="0.236" />
 
   <EditText
       android:id="@+id/emailAddress"
@@ -47,7 +47,7 @@
       app:layout_constraintVertical_bias="0.336" />
 
   <EditText
-      android:id="@+id/passWord"
+      android:id="@+id/Password"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:ems="10"
@@ -69,18 +69,6 @@
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />
-
-  <EditText
-      android:id="@+id/lastName"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:hint="Last name"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.162"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.244" />
 
   <TextView
       android:id="@+id/signUp"
