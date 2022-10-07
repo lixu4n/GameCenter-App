@@ -71,7 +71,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                     databaseReference.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
-                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        public void onDataChange(DataSnapshot snapshot) {
 
                             if(snapshot.hasChild(emailText)){
                                 Toast.makeText(SignUpActivity.this, "Email is already in use.", Toast.LENGTH_SHORT).show();
@@ -95,7 +95,7 @@ public class SignUpActivity extends AppCompatActivity {
                         }
 
                         @Override
-                        public void onCancelled(@NonNull DatabaseError error) {
+                        public void onCancelled(DatabaseError error) {
 
                         }
                     });

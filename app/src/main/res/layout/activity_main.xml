@@ -10,7 +10,7 @@
 
 
     <ImageButton
-        android:id="@+id/imagegamelink1"
+        android:id="@+id/imageGameSudoku"
         android:layout_width="173dp"
         android:layout_height="wrap_content"
         android:translationX="100dp"
@@ -41,7 +41,7 @@
         android:id="@+id/connect4game"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connect 4"
+        android:text="Sudoku"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
