@@ -37,7 +37,7 @@ public class SignUpActivity extends AppCompatActivity {
         final EditText emailAdd = findViewById( R.id.emailAddress);
         final TextView Password = findViewById( R.id.Password);
 
-        //lol
+        //lol lol
         final EditText  confirmPassword = findViewById( R.id.confirmPassword);
 
 
