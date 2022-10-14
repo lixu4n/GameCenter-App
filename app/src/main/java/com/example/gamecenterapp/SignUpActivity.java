@@ -28,7 +28,7 @@ public class SignUpActivity extends AppCompatActivity {
     //Accessing firebase
     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://game-center-authentication-default-rtdb.firebaseio.com/");
 
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
