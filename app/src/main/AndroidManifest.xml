@@ -11,22 +11,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GameCenterApp">
         <activity
-<<<<<<< HEAD
-            android:name=".TicTacToe"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-=======
-            android:name=".SudokuWelcomeActivity"
+            android:name=".SudokuGameActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
->>>>>>> 4b5864ce6e63eee215e6cee5a3138aa0989dcde6
         </activity>
+        <activity
+            android:name=".SudokuRulesActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TicTacToe"
+            android:exported="true" />
+
+        <activity
+            android:name=".SudokuWelcomeActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
